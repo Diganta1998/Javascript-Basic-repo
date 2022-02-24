@@ -3,4 +3,13 @@ var user = {
 	"city": "Desatnick"
 }
 
-console.log(user)
+var JSONstringify = JSON.stringify(user)
+
+console.log(JSONstringify, typeof JSONstringify)
+
+var JSONParse = JSON.parse(JSONstringify)
+
+console.log(JSONParse, typeof JSONParse)
+
+//server to server
+

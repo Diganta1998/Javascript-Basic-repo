@@ -1,0 +1,1 @@
+varobj = Object.create()

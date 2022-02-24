@@ -46,7 +46,8 @@ var student = {
     address : {
         state: 'Massecchusets',
         country: 'USA'
-    }
+    },
+    colors : ["red","blue","green"]
 }
 
 console.log(student)
